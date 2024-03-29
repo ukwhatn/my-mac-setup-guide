@@ -34,10 +34,6 @@ cask "karabiner-elements"
 cask "postman"
 cask "github"
 cask "termius"
-
-cask "blackhole-16ch"
-cask "blackhole-2ch"
-cask "blackhole-64ch"
 cask "font-hack-nerd-font"
 
 mas "Keynote", id: 409183694
