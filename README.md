@@ -62,6 +62,6 @@ brew bundle --global
 
 # Add Pathes to fish
 # ~/.config/fish/config.fish
-fish_add_path \"/Users/ukwhatn/Library/Application Support/JetBrains/Toolbox/scripts\"
+fish_add_path "/Users/ukwhatn/Library/Application Support/JetBrains/Toolbox/scripts"
 fish_add_path /opt/homebrew/opt/libpq/bin
 ```
