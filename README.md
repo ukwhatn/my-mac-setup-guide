@@ -6,7 +6,8 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Add path to zsh
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+# ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Reload shell
 ```
@@ -31,8 +32,8 @@ fisher install jethrokuan/z
 fisher install IlanCosman/tide@v6
 
 # Add path to fish
-echo "# brew
-eval \"$(/opt/homebrew/bin/brew shellenv)\"" >> ~/.config/fish/config.fish
+# nano ~/.config/fish/config.fish
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Reload shell
 ```
@@ -44,8 +45,8 @@ eval \"$(/opt/homebrew/bin/brew shellenv)\"" >> ~/.config/fish/config.fish
 brew install asdf
 
 # Add path to fish
-echo "# asdf
-source /opt/homebrew/opt/asdf/libexec/asdf.fish" >> ~/.config/fish/config.fish
+# ~/.config/fish/config.fish
+source /opt/homebrew/opt/asdf/libexec/asdf.fish
 
 # Load path
 source ~/.zprofile
@@ -60,8 +61,7 @@ curl https://raw.githubusercontent.com/ukwhatn/my-mac-setup-guide/main/Brewfile 
 brew bundle --global
 
 # Add Pathes to fish
-echo "# jetbrains
+# ~/.config/fish/config.fish
 fish_add_path \"/Users/ukwhatn/Library/Application Support/JetBrains/Toolbox/scripts\"
-# libpq
-fish_add_path /opt/homebrew/opt/libpq/bin" >> ~/.config/fish/config.fish
+fish_add_path /opt/homebrew/opt/libpq/bin
 ```
