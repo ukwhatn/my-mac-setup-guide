@@ -39,3 +39,17 @@ cask "blackhole-16ch"
 cask "blackhole-2ch"
 cask "blackhole-64ch"
 cask "font-hack-nerd-font"
+
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "LadioCast", id: 411213048
+mas "LINE", id: 539883307
+mas "Magnet", id: 441258766
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Word", id: 462054704
+mas "RunCat", id: 1429033973
+mas "Spark", id: 1176895641
+mas "Speedtest", id: 1153157709
+mas "WireGuard", id: 1451685025
