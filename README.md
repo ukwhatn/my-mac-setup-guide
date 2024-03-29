@@ -59,6 +59,7 @@ source ~/.zprofile
 curl https://raw.githubusercontent.com/ukwhatn/my-mac-setup-guide/main/Brewfile > ~/.Brewfile
 
 # Install
+sudo softwareupdate --install-rosetta
 brew bundle --global
 
 # Add Pathes to fish
