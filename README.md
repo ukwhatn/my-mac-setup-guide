@@ -12,7 +12,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 ```
 
 ## 2. Fish shell
-```
+```sh
 # Install fish
 brew install fish
 sudo echo "/opt/homebrew/bin/fish" | sudo tee -a /etc/shells
@@ -39,13 +39,9 @@ eval \"$(/opt/homebrew/bin/brew shellenv)\"" >> ~/.config/fish/config.fish
 
 
 ## 3. asdf
-```
+```sh
 # Install
 brew install asdf
-
-# Add path to zsh
-echo "# asdf
-source /opt/homebrew/opt/asdf/libexec/asdf.fish" >> ~/.zprofile
 
 # Add path to fish
 echo "# asdf
@@ -55,3 +51,17 @@ source /opt/homebrew/opt/asdf/libexec/asdf.fish" >> ~/.config/fish/config.fish
 source ~/.zprofile
 ```
 
+## 4. Install Applications
+```sh
+# Download Brewfile
+curl https://raw.githubusercontent.com/ukwhatn/my-mac-setup-guide/main/Brewfile > ~/.Brewfile
+
+# Install
+brew bundle --global
+
+# Add Pathes to fish
+echo "# jetbrains
+fish_add_path \"/Users/ukwhatn/Library/Application Support/JetBrains/Toolbox/scripts\"
+# libpq
+fish_add_path /opt/homebrew/opt/libpq/bin" >> ~/.config/fish/config.fish
+```
