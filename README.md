@@ -47,6 +47,7 @@ brew install asdf
 # Add path to fish
 # ~/.config/fish/config.fish
 source /opt/homebrew/opt/asdf/libexec/asdf.fish
+fish_add_path /Users/ukwhatn/.asdf/shims
 
 # Load path
 source ~/.zprofile
