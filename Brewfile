@@ -12,6 +12,7 @@ brew "imagemagick"
 brew "libpq"
 brew "z"
 brew "mas"
+brew "sass/sass/sass"
 
 cask "google-chrome"
 cask "slack"
