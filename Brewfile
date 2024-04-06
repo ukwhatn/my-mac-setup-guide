@@ -37,7 +37,7 @@ cask "github"
 cask "termius"
 cask "font-hack-nerd-font"
 cask "google-drive"
-
+cask "gitkraken"
 
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
