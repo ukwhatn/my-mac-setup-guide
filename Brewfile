@@ -1,55 +1,54 @@
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
-tap "sass/sass"
+tap "oven-sh/bun"
 
 cask_args appdir: "/Applications"
 
-brew "xz"
 brew "asdf"
 brew "fish"
 brew "gh"
 brew "git"
-brew "imagemagick"
 brew "libpq"
-brew "z"
+brew "libyaml"
 brew "mas"
-brew "sass/sass/sass"
-
-cask "google-chrome"
-cask "slack"
-cask "discord"
+brew "nkf"
+brew "xz"
+brew "pipx"
+brew "yarn"
+brew "z"
+brew "oven-sh/bun/bun"
 cask "1password"
-cask "google-japanese-ime"
-cask "the-unarchiver"
-cask "bartender"
-cask "zoom"
-cask "hammerspoon"
-cask "notion"
-cask "notion-calendar"
-cask "sequel-ace"
 cask "adobe-creative-cloud"
+cask "arc"
+cask "atok"
+cask "bartender"
 cask "clipy"
+cask "cursor"
 cask "deepl"
+cask "discord"
 cask "docker"
+cask "firefox"
+cask "font-hack-nerd-font"
+cask "github"
+cask "gitkraken"
+cask "google-chrome"
+cask "google-drive"
 cask "jetbrains-toolbox"
 cask "karabiner-elements"
+cask "keyboardcleantool"
+cask "notion"
+cask "notion-calendar"
 cask "postman"
-cask "github"
+cask "raycast"
+cask "slack"
+cask "spotify"
 cask "termius"
-cask "font-hack-nerd-font"
-cask "google-drive"
-cask "gitkraken"
+cask "the-unarchiver"
+cask "transmission"
+cask "visual-studio-code"
+cask "zoom"
 
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "LadioCast", id: 411213048
-mas "LINE", id: 539883307
-mas "Magnet", id: 441258766
-mas "Microsoft Excel", id: 462058435
-mas "Microsoft PowerPoint", id: 462062816
-mas "Microsoft Word", id: 462054704
 mas "RunCat", id: 1429033973
+mas "Windows App", id: 1295203466
 mas "Spark", id: 1176895641
-mas "Speedtest", id: 1153157709
-mas "WireGuard", id: 1451685025
+mas "Tailscale", id: 1475387142
+mas "Magnet", id: 441258766
